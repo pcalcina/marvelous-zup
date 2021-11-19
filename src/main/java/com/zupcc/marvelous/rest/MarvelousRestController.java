@@ -63,7 +63,7 @@ public class MarvelousRestController {
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler({MethodArgumentNotValidException.class, Exception.class})
+    @ExceptionHandler({MethodArgumentNotValidException.class})
     public Map<String, String> handleValidationExceptions(
             MethodArgumentNotValidException ex) {
         Map<String, String> errors = new HashMap<>();

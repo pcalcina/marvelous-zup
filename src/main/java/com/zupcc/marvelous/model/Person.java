@@ -33,7 +33,7 @@ public class Person {
     @Email
     private String email;
 
-    @JsonFormat(pattern="yyyy-MM-dd")
+    @JsonFormat(pattern="dd/MM/yyyy")
     @Column(nullable = false)
     private LocalDate birthday;
 
