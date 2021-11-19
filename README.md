@@ -1,5 +1,7 @@
 # Managing Marvel Comics with Spring
 
+**Author: Pablo C. Ccori**
+
 In this article we show how to use Spring and the Java Programming Language to manage Marvel Comics through a REST API.
 
 The complete code used in this tutorial can be found in this repository 
